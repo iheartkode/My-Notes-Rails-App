@@ -4,5 +4,4 @@ This is a note taking app I'm developing in Rails.
 Learning Rails.
 
 * Ruby version:  ruby 2.0.0p598
-
-* System dependencies: Check Gemfile
+* Rails 4x
