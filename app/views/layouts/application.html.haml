@@ -10,8 +10,11 @@
       / = link_to image_tag('logo.svg'), root_path, id: "logo"
       %nav
         - if user_signed_in?
-          = link_to "New Note", new_note_path
-          = link_to "Sign Out", destroy_user_session_path, method: :delete
+          %ul.nav.nav-tabs
+            %li
+              = link_to "New Note", new_note_path
+            %li
+              = link_to "Sign Out", destroy_user_session_path, method: :delete
         -else
           = link_to "Log In", new_user_session_path
   %p.notice= notice
