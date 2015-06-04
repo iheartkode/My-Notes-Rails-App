@@ -1,5 +1,7 @@
 = simple_form_for @note do |f|
     = f.input :title, :class => "input-sm"
     = f.input :content, :class => 'input-lg'
-    = f.input :picture
+    = f.input :picture, :class => 'input-sm'
+    %br
+    %br
     = f.submit 'Submit', :class => "btn btn-primary"
