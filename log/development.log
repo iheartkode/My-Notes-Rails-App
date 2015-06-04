@@ -7868,3 +7868,2459 @@ Processing by NotesController#new as HTML
   Rendered notes/_form.html.haml (1295.8ms)
   Rendered notes/new.html.haml within layouts/application (1383.5ms)
 Completed 200 OK in 2205ms (Views: 1912.9ms | ActiveRecord: 7.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-12 20:49:55 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (11.0ms)
+Completed 200 OK in 2016ms (Views: 2014.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-12 20:49:58 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-12 20:49:58 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-12 20:49:58 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-12 20:49:58 -0700
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-03-12 20:49:58 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-03-12 20:49:58 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-12 20:49:58 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-30 17:10:04 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (22.3ms)
+Completed 200 OK in 501ms (Views: 499.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-30 17:10:05 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-30 17:10:05 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-30 17:10:05 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-30 17:10:05 -0700
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-03-30 17:10:06 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-03-30 17:10:06 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-30 17:10:06 -0700
+
+
+Started GET "/assets/bootstrap.min.css" for 127.0.0.1 at 2015-03-30 17:10:06 -0700
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-03-30 17:10:10 -0700
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (7.0ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (503.5ms)
+Completed 200 OK in 655ms (Views: 641.9ms | ActiveRecord: 1.7ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2015-03-30 17:10:23 -0700
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"f8PWLlrUWhWKYBv/C18LotC0O8hRO6bkWC1gsJ4aGRA=", "user"=>{"email"=>"markhjr@outlook.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.4ms)[0m  begin transaction
+  [1m[36mUser Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'markhjr@outlook.com' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  rollback transaction
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (33.5ms)
+Completed 200 OK in 605ms (Views: 153.7ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-30 17:10:24 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-30 17:10:24 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-30 17:10:24 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-30 17:10:24 -0700
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-03-30 17:10:24 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-03-30 17:10:24 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-30 17:10:24 -0700
+
+
+Started POST "/users" for 127.0.0.1 at 2015-03-30 17:10:43 -0700
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"f8PWLlrUWhWKYBv/C18LotC0O8hRO6bkWC1gsJ4aGRA=", "user"=>{"email"=>"markhjr@outlook.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.7ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'markhjr@outlook.com' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mrollback transaction[0m
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (35.8ms)
+Completed 200 OK in 372ms (Views: 167.7ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-30 17:10:44 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-30 17:10:44 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-30 17:10:44 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-30 17:10:44 -0700
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-03-30 17:10:44 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-03-30 17:10:44 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-30 17:10:44 -0700
+
+
+Started POST "/users" for 127.0.0.1 at 2015-03-30 17:10:49 -0700
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"f8PWLlrUWhWKYBv/C18LotC0O8hRO6bkWC1gsJ4aGRA=", "user"=>{"email"=>"markhjr@outlook.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mUser Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'markhjr@outlook.com' LIMIT 1[0m
+  [1m[35m (5.3ms)[0m  rollback transaction
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (60.3ms)
+Completed 200 OK in 477ms (Views: 243.9ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-30 17:10:50 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-30 17:10:50 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-30 17:10:50 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-30 17:10:50 -0700
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-03-30 17:10:50 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-30 17:10:50 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-03-30 17:10:50 -0700
+
+
+Started POST "/users" for 127.0.0.1 at 2015-03-30 17:11:11 -0700
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"f8PWLlrUWhWKYBv/C18LotC0O8hRO6bkWC1gsJ4aGRA=", "user"=>{"email"=>"markhjr@outlook.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.8ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'markhjr@outlook.com' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mrollback transaction[0m
+  Rendered devise/shared/_links.html.erb (1.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (38.6ms)
+Completed 200 OK in 397ms (Views: 197.0ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-30 17:11:11 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-30 17:11:11 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-30 17:11:11 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-30 17:11:11 -0700
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-03-30 17:11:11 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-03-30 17:11:11 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-30 17:11:11 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-30 17:11:17 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (1.0ms)
+Completed 200 OK in 151ms (Views: 150.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-30 17:11:18 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-30 17:11:18 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-30 17:11:18 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-30 17:11:18 -0700
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-03-30 17:11:18 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-03-30 17:11:18 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-30 17:11:18 -0700
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-03-30 17:11:22 -0700
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (40.3ms)
+Completed 200 OK in 161ms (Views: 157.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2015-03-30 17:11:36 -0700
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"f8PWLlrUWhWKYBv/C18LotC0O8hRO6bkWC1gsJ4aGRA=", "user"=>{"email"=>"markhjr@outlook.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mUser Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'markhjr@outlook.com' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  rollback transaction
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (44.4ms)
+Completed 200 OK in 397ms (Views: 173.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-30 17:11:36 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-30 17:11:36 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-30 17:11:36 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-30 17:11:36 -0700
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-03-30 17:11:36 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-03-30 17:11:36 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-30 17:11:36 -0700
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-03-30 17:12:04 -0700
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (82.0ms)
+Completed 200 OK in 240ms (Views: 229.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-30 17:12:05 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-30 17:12:05 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-30 17:12:05 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-30 17:12:05 -0700
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-03-30 17:12:05 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-03-30 17:12:05 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-30 17:12:05 -0700
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2015-03-30 17:12:08 -0700
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"f8PWLlrUWhWKYBv/C18LotC0O8hRO6bkWC1gsJ4aGRA=", "user"=>{"email"=>"markhjr@outlook.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."email" = 'markhjr@outlook.com'  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mSQL (1.5ms)[0m  [1mUPDATE "users" SET "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = 2[0m  [["current_sign_in_at", "2015-03-31 00:12:09.044624"], ["sign_in_count", 2], ["updated_at", "2015-03-31 00:12:09.052701"]]
+  [1m[35m (108.3ms)[0m  commit transaction
+Redirected to http://0.0.0.0:3000/
+Completed 302 Found in 592ms (ActiveRecord: 111.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-30 17:12:09 -0700
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1[0m
+Processing by NotesController#index as HTML
+  [1m[35mNote Load (0.7ms)[0m  SELECT "notes".* FROM "notes"  WHERE "notes"."user_id" = 2
+  Rendered notes/index.html.haml within layouts/application (28.2ms)
+Completed 200 OK in 228ms (Views: 161.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-30 17:12:09 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-30 17:12:09 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-30 17:12:09 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-30 17:12:09 -0700
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-03-30 17:12:09 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-03-30 17:12:09 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-30 17:12:09 -0700
+
+
+Started GET "/notes/10" for 127.0.0.1 at 2015-03-30 17:12:14 -0700
+Processing by NotesController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mNote Load (0.6ms)[0m  [1mSELECT  "notes".* FROM "notes"  WHERE "notes"."id" = ? LIMIT 1[0m  [["id", 10]]
+  Rendered notes/show.html.haml within layouts/application (8.0ms)
+  [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 191ms (Views: 184.3ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/notes" for 127.0.0.1 at 2015-03-30 17:12:18 -0700
+Processing by NotesController#index as HTML
+  [1m[36mUser Load (4.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mNote Load (0.7ms)[0m  SELECT "notes".* FROM "notes"  WHERE "notes"."user_id" = 2
+  Rendered notes/index.html.haml within layouts/application (27.0ms)
+Completed 200 OK in 147ms (Views: 135.6ms | ActiveRecord: 4.8ms)
+
+
+Started GET "/notes/10" for 127.0.0.1 at 2015-03-30 17:12:22 -0700
+Processing by NotesController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mNote Load (0.3ms)[0m  [1mSELECT  "notes".* FROM "notes"  WHERE "notes"."id" = ? LIMIT 1[0m  [["id", 10]]
+  Rendered notes/show.html.haml within layouts/application (3.2ms)
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 125ms (Views: 118.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/notes/10/edit" for 127.0.0.1 at 2015-03-30 17:12:25 -0700
+Processing by NotesController#edit as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mNote Load (0.3ms)[0m  [1mSELECT  "notes".* FROM "notes"  WHERE "notes"."id" = ? LIMIT 1[0m  [["id", 10]]
+  Rendered notes/_form.html.haml (38.1ms)
+  Rendered notes/edit.html.haml within layouts/application (46.8ms)
+  [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 172ms (Views: 166.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/notes/10" for 127.0.0.1 at 2015-03-30 17:12:27 -0700
+Processing by NotesController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mNote Load (0.3ms)[0m  [1mSELECT  "notes".* FROM "notes"  WHERE "notes"."id" = ? LIMIT 1[0m  [["id", 10]]
+  Rendered notes/show.html.haml within layouts/application (2.3ms)
+  [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 113ms (Views: 106.7ms | ActiveRecord: 1.0ms)
+
+
+Started DELETE "/notes/10" for 127.0.0.1 at 2015-03-30 17:12:33 -0700
+Processing by NotesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"9QxRBWu2FzVzZ5VlgEiJhsZCbbTLMaWZMYCbnD2BBLs=", "id"=>"10"}
+  [1m[36mNote Load (0.4ms)[0m  [1mSELECT  "notes".* FROM "notes"  WHERE "notes"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mSQL (0.8ms)[0m  [1mDELETE FROM "notes" WHERE "notes"."id" = ?[0m  [["id", 10]]
+  [1m[35m (130.2ms)[0m  commit transaction
+Redirected to http://0.0.0.0:3000/notes
+Completed 302 Found in 147ms (ActiveRecord: 131.7ms)
+
+
+Started GET "/notes" for 127.0.0.1 at 2015-03-30 17:12:33 -0700
+Processing by NotesController#index as HTML
+  [1m[36mUser Load (3.9ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mNote Load (0.7ms)[0m  SELECT "notes".* FROM "notes"  WHERE "notes"."user_id" = 2
+  Rendered notes/index.html.haml within layouts/application (2.6ms)
+Completed 200 OK in 125ms (Views: 114.1ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-30 17:12:34 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-30 17:12:34 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-30 17:12:34 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-30 17:12:34 -0700
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-03-30 17:12:34 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-03-30 17:12:34 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-30 17:12:34 -0700
+
+
+Started GET "/notes/new" for 127.0.0.1 at 2015-03-30 17:12:36 -0700
+Processing by NotesController#new as HTML
+  [1m[36mUser Load (3.8ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered notes/_form.html.haml (27.3ms)
+  Rendered notes/new.html.haml within layouts/application (34.7ms)
+Completed 200 OK in 245ms (Views: 150.0ms | ActiveRecord: 3.8ms)
+
+
+Started POST "/notes" for 127.0.0.1 at 2015-03-30 17:12:53 -0700
+Processing by NotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9QxRBWu2FzVzZ5VlgEiJhsZCbbTLMaWZMYCbnD2BBLs=", "note"=>{"title"=>"Todo", "content"=>"Eat cake\r\n"}, "commit"=>"Submit"}
+  [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "notes" ("content", "created_at", "title", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)  [["content", "Eat cake\r\n"], ["created_at", "2015-03-31 00:12:53.434979"], ["title", "Todo"], ["updated_at", "2015-03-31 00:12:53.434979"], ["user_id", 2]]
+  [1m[36m (151.5ms)[0m  [1mcommit transaction[0m
+Redirected to http://0.0.0.0:3000/notes/12
+Completed 302 Found in 190ms (ActiveRecord: 153.5ms)
+
+
+Started GET "/notes/12" for 127.0.0.1 at 2015-03-30 17:12:53 -0700
+Processing by NotesController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[35mNote Load (0.5ms)[0m  SELECT  "notes".* FROM "notes"  WHERE "notes"."id" = ? LIMIT 1  [["id", 12]]
+  Rendered notes/show.html.haml within layouts/application (7.1ms)
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 145ms (Views: 138.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-30 17:12:54 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-30 17:12:54 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-30 17:12:54 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-30 17:12:54 -0700
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-03-30 17:12:54 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-03-30 17:12:54 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-30 17:12:54 -0700
+
+
+Started GET "/notes" for 127.0.0.1 at 2015-03-30 17:13:01 -0700
+Processing by NotesController#index as HTML
+  [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mNote Load (0.6ms)[0m  [1mSELECT "notes".* FROM "notes"  WHERE "notes"."user_id" = 2[0m
+  Rendered notes/index.html.haml within layouts/application (6.6ms)
+Completed 200 OK in 131ms (Views: 122.3ms | ActiveRecord: 1.3ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2015-03-30 17:16:18 -0700
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"9QxRBWu2FzVzZ5VlgEiJhsZCbbTLMaWZMYCbnD2BBLs="}
+  [1m[35mUser Load (0.8ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (4.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  commit transaction
+Redirected to http://0.0.0.0:3000/
+Completed 302 Found in 55ms (ActiveRecord: 5.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-30 17:16:18 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (1.1ms)
+Completed 200 OK in 120ms (Views: 119.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-30 17:16:18 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-30 17:16:18 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-30 17:16:18 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-30 17:16:18 -0700
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-03-30 17:16:18 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-03-30 17:16:18 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-30 17:16:18 -0700
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-03-30 17:18:36 -0700
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.4ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (80.5ms)
+Completed 200 OK in 200ms (Views: 189.4ms | ActiveRecord: 2.5ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2015-03-30 17:18:38 -0700
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PJU5y9h/thFF7kQb19KCpXvoMje2pvsfs3DWzuP+4PI=", "user"=>{"email"=>"markhjr@outlook.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36m (0.6ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.5ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'markhjr@outlook.com' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mrollback transaction[0m
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (37.4ms)
+Completed 200 OK in 368ms (Views: 158.5ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-30 17:18:39 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-30 17:18:39 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-30 17:18:39 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-03-30 17:18:39 -0700
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-03-30 17:18:39 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-30 17:18:39 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-30 17:18:39 -0700
+
+
+Started POST "/users" for 127.0.0.1 at 2015-03-30 17:18:40 -0700
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PJU5y9h/thFF7kQb19KCpXvoMje2pvsfs3DWzuP+4PI=", "user"=>{"email"=>"markhjr@outlook.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mUser Exists (0.9ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'markhjr@outlook.com' LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (43.3ms)
+Completed 200 OK in 409ms (Views: 174.3ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-30 17:18:41 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-30 17:18:41 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-30 17:18:41 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-30 17:18:41 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-03-30 17:18:41 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-30 17:18:41 -0700
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-03-30 17:18:41 -0700
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-03-30 17:18:43 -0700
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (40.6ms)
+Completed 200 OK in 166ms (Views: 157.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-30 17:18:43 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-30 17:18:43 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-30 17:18:43 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-30 17:18:43 -0700
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-03-30 17:18:43 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-03-30 17:18:43 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-30 17:18:43 -0700
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2015-03-30 17:18:45 -0700
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PJU5y9h/thFF7kQb19KCpXvoMje2pvsfs3DWzuP+4PI=", "user"=>{"email"=>"markhjr@outlook.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."email" = 'markhjr@outlook.com'  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mSQL (0.9ms)[0m  [1mUPDATE "users" SET "current_sign_in_at" = ?, "last_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = 2[0m  [["current_sign_in_at", "2015-03-31 00:18:45.686578"], ["last_sign_in_at", "2015-03-31 00:12:09.044624"], ["sign_in_count", 3], ["updated_at", "2015-03-31 00:18:45.689736"]]
+  [1m[35m (245.8ms)[0m  commit transaction
+Redirected to http://0.0.0.0:3000/
+Completed 302 Found in 430ms (ActiveRecord: 247.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-30 17:18:45 -0700
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1[0m
+Processing by NotesController#index as HTML
+  [1m[35mNote Load (0.7ms)[0m  SELECT "notes".* FROM "notes"  WHERE "notes"."user_id" = 2
+  Rendered notes/index.html.haml within layouts/application (21.9ms)
+Completed 200 OK in 148ms (Views: 137.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-30 17:18:46 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-30 17:18:46 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-30 17:18:46 -0700
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-03-30 17:18:46 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-03-30 17:18:46 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-30 17:18:46 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-30 17:18:46 -0700
+
+
+Started GET "/notes/new" for 127.0.0.1 at 2015-03-30 17:18:56 -0700
+Processing by NotesController#new as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered notes/_form.html.haml (26.6ms)
+  Rendered notes/new.html.haml within layouts/application (30.0ms)
+Completed 200 OK in 140ms (Views: 124.9ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/notes" for 127.0.0.1 at 2015-03-30 17:19:21 -0700
+Processing by NotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yWFoU4kTsp+xHSfKaxE7po7T3joYU4+ffgUaJ1X0peY=", "note"=>{"title"=>"Vacation Plan", "content"=>"Eat alot\r\ndrink alot\r\n"}, "commit"=>"Submit"}
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "notes" ("content", "created_at", "title", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)  [["content", "Eat alot\r\ndrink alot\r\n"], ["created_at", "2015-03-31 00:19:21.041045"], ["title", "Vacation Plan"], ["updated_at", "2015-03-31 00:19:21.041045"], ["user_id", 2]]
+  [1m[36m (198.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://0.0.0.0:3000/notes/13
+Completed 302 Found in 220ms (ActiveRecord: 199.8ms)
+
+
+Started GET "/notes/13" for 127.0.0.1 at 2015-03-30 17:19:21 -0700
+Processing by NotesController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[35mNote Load (1.2ms)[0m  SELECT  "notes".* FROM "notes"  WHERE "notes"."id" = ? LIMIT 1  [["id", 13]]
+  Rendered notes/show.html.haml within layouts/application (2.5ms)
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 134ms (Views: 127.2ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-30 17:19:21 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-30 17:19:21 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-30 17:19:21 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-30 17:19:21 -0700
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-03-30 17:19:21 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-03-30 17:19:21 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-30 17:19:21 -0700
+
+
+Started GET "/notes" for 127.0.0.1 at 2015-03-30 17:19:24 -0700
+Processing by NotesController#index as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mNote Load (0.6ms)[0m  [1mSELECT "notes".* FROM "notes"  WHERE "notes"."user_id" = 2[0m
+  Rendered notes/index.html.haml within layouts/application (9.8ms)
+Completed 200 OK in 116ms (Views: 109.7ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/notes/new" for 127.0.0.1 at 2015-03-30 17:20:57 -0700
+Processing by NotesController#new as HTML
+  [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered notes/_form.html.haml (45.2ms)
+  Rendered notes/new.html.haml within layouts/application (48.4ms)
+Completed 200 OK in 223ms (Views: 158.8ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/notes/new" for 127.0.0.1 at 2015-03-30 17:22:20 -0700
+Processing by NotesController#new as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered notes/_form.html.haml (51.4ms)
+  Rendered notes/new.html.haml within layouts/application (59.0ms)
+Completed 200 OK in 251ms (Views: 238.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-30 17:22:20 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-30 17:22:20 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-30 17:22:20 -0700
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-03-30 17:22:20 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-30 17:22:20 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-03-30 17:22:20 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-30 17:22:20 -0700
+
+
+Started GET "/assets/bootstrap.min.css" for 127.0.0.1 at 2015-03-30 17:22:20 -0700
+
+
+Started POST "/notes" for 127.0.0.1 at 2015-03-30 17:27:45 -0700
+Processing by NotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yWFoU4kTsp+xHSfKaxE7po7T3joYU4+ffgUaJ1X0peY=", "note"=>{"title"=>"dsfdfs", "content"=>"dfsdfsdfs\r\ndsfdfsdf"}, "commit"=>"Submit"}
+  [1m[35mUser Load (0.8ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.2ms)[0m  INSERT INTO "notes" ("content", "created_at", "title", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)  [["content", "dfsdfsdfs\r\ndsfdfsdf"], ["created_at", "2015-03-31 00:27:45.592452"], ["title", "dsfdfs"], ["updated_at", "2015-03-31 00:27:45.592452"], ["user_id", 2]]
+  [1m[36m (206.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://0.0.0.0:3000/notes/14
+Completed 302 Found in 233ms (ActiveRecord: 209.5ms)
+
+
+Started GET "/notes/14" for 127.0.0.1 at 2015-03-30 17:27:45 -0700
+Processing by NotesController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[35mNote Load (0.7ms)[0m  SELECT  "notes".* FROM "notes"  WHERE "notes"."id" = ? LIMIT 1  [["id", 14]]
+  Rendered notes/show.html.haml within layouts/application (3.9ms)
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 160ms (Views: 152.4ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-30 17:27:46 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-30 17:27:46 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-30 17:27:46 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-30 17:27:46 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-30 17:27:46 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-03-30 17:27:46 -0700
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-03-30 17:27:46 -0700
+
+
+Started GET "/assets/bootstrap.min.css" for 127.0.0.1 at 2015-03-30 17:27:46 -0700
+
+
+Started GET "/notes/14" for 127.0.0.1 at 2015-03-30 17:29:01 -0700
+Processing by NotesController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[35mNote Load (0.3ms)[0m  SELECT  "notes".* FROM "notes"  WHERE "notes"."id" = ? LIMIT 1  [["id", 14]]
+  Rendered notes/show.html.haml within layouts/application (67.8ms)
+Completed 500 Internal Server Error in 81ms
+
+ActionView::Template::Error (undefined method `imple_format' for #<#<Class:0x007fa85edff968>:0x007fa8619cdbf8>):
+    1: %h1=  @note.title
+    2: %p= imple_format @note.content
+    3: = link_to "All Notes", notes_path
+    4: = link_to "Edit", edit_note_path(@note)
+    5: = link_to "Delete", note_path(@note), method:  :delete, data: { confirm: "Are you sure?" }
+  app/views/notes/show.html.haml:2:in `_app_views_notes_show_html_haml__4099340002798005594_70180584438720'
+
+
+  Rendered /home/mark/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.8ms)
+  Rendered /home/mark/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.4ms)
+  Rendered /home/mark/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (86.1ms)
+
+
+Started GET "/notes/14" for 127.0.0.1 at 2015-03-30 17:29:09 -0700
+Processing by NotesController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[36mNote Load (0.4ms)[0m  [1mSELECT  "notes".* FROM "notes"  WHERE "notes"."id" = ? LIMIT 1[0m  [["id", 14]]
+  Rendered notes/show.html.haml within layouts/application (33.9ms)
+  [1m[35mUser Load (1.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 168ms (Views: 159.8ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-30 17:29:09 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-30 17:29:09 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-30 17:29:09 -0700
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-03-30 17:29:09 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-30 17:29:09 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-30 17:29:09 -0700
+
+
+Started GET "/assets/bootstrap.min.css" for 127.0.0.1 at 2015-03-30 17:29:09 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-03-30 17:29:09 -0700
+
+
+Started GET "/notes/14/edit" for 127.0.0.1 at 2015-03-30 17:29:12 -0700
+Processing by NotesController#edit as HTML
+  Parameters: {"id"=>"14"}
+  [1m[36mNote Load (0.8ms)[0m  [1mSELECT  "notes".* FROM "notes"  WHERE "notes"."id" = ? LIMIT 1[0m  [["id", 14]]
+  Rendered notes/_form.html.haml (32.6ms)
+  Rendered notes/edit.html.haml within layouts/application (36.8ms)
+  [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 150ms (Views: 143.2ms | ActiveRecord: 1.4ms)
+
+
+Started PATCH "/notes/14" for 127.0.0.1 at 2015-03-30 17:29:15 -0700
+Processing by NotesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yWFoU4kTsp+xHSfKaxE7po7T3joYU4+ffgUaJ1X0peY=", "note"=>{"title"=>"dsfdfs", "content"=>"dfsdfsdfs\r\n\r\ndsfdfsdf"}, "commit"=>"Submit", "id"=>"14"}
+  [1m[36mNote Load (0.5ms)[0m  [1mSELECT  "notes".* FROM "notes"  WHERE "notes"."id" = ? LIMIT 1[0m  [["id", 14]]
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.9ms)[0m  [1mUPDATE "notes" SET "content" = ?, "updated_at" = ? WHERE "notes"."id" = 14[0m  [["content", "dfsdfsdfs\r\n\r\ndsfdfsdf"], ["updated_at", "2015-03-31 00:29:16.008738"]]
+  [1m[35m (167.8ms)[0m  commit transaction
+Redirected to http://0.0.0.0:3000/notes/14
+Completed 302 Found in 186ms (ActiveRecord: 169.4ms)
+
+
+Started GET "/notes/14" for 127.0.0.1 at 2015-03-30 17:29:16 -0700
+Processing by NotesController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[36mNote Load (0.4ms)[0m  [1mSELECT  "notes".* FROM "notes"  WHERE "notes"."id" = ? LIMIT 1[0m  [["id", 14]]
+  Rendered notes/show.html.haml within layouts/application (3.9ms)
+  [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 118ms (Views: 109.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-03-30 17:29:16 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-30 17:29:16 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-30 17:29:16 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-30 17:29:17 -0700
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-03-30 17:29:17 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-30 17:29:17 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-30 17:29:17 -0700
+
+
+Started GET "/assets/bootstrap.min.css" for 127.0.0.1 at 2015-03-30 17:29:17 -0700
+
+
+Started DELETE "/notes/14" for 127.0.0.1 at 2015-03-30 17:29:25 -0700
+Processing by NotesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"yWFoU4kTsp+xHSfKaxE7po7T3joYU4+ffgUaJ1X0peY=", "id"=>"14"}
+  [1m[36mNote Load (0.4ms)[0m  [1mSELECT  "notes".* FROM "notes"  WHERE "notes"."id" = ? LIMIT 1[0m  [["id", 14]]
+  [1m[35m (0.9ms)[0m  begin transaction
+  [1m[36mSQL (4.7ms)[0m  [1mDELETE FROM "notes" WHERE "notes"."id" = ?[0m  [["id", 14]]
+  [1m[35m (132.0ms)[0m  commit transaction
+Redirected to http://0.0.0.0:3000/notes
+Completed 302 Found in 152ms (ActiveRecord: 137.9ms)
+
+
+Started GET "/notes" for 127.0.0.1 at 2015-03-30 17:29:26 -0700
+Processing by NotesController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mNote Load (0.6ms)[0m  SELECT "notes".* FROM "notes"  WHERE "notes"."user_id" = 2
+  Rendered notes/index.html.haml within layouts/application (9.2ms)
+Completed 200 OK in 170ms (Views: 159.9ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-30 17:29:26 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-30 17:29:26 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-30 17:29:26 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-30 17:29:26 -0700
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-03-30 17:29:26 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-30 17:29:26 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-03-30 17:29:26 -0700
+
+
+Started GET "/assets/bootstrap.min.css" for 127.0.0.1 at 2015-03-30 17:29:27 -0700
+
+
+Started GET "/notes/12" for 127.0.0.1 at 2015-03-30 17:29:29 -0700
+Processing by NotesController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mNote Load (0.3ms)[0m  [1mSELECT  "notes".* FROM "notes"  WHERE "notes"."id" = ? LIMIT 1[0m  [["id", 12]]
+  Rendered notes/show.html.haml within layouts/application (7.6ms)
+  [1m[35mUser Load (0.8ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 119ms (Views: 112.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/notes/12/edit" for 127.0.0.1 at 2015-03-30 17:29:31 -0700
+Processing by NotesController#edit as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mNote Load (0.4ms)[0m  [1mSELECT  "notes".* FROM "notes"  WHERE "notes"."id" = ? LIMIT 1[0m  [["id", 12]]
+  Rendered notes/_form.html.haml (46.2ms)
+  Rendered notes/edit.html.haml within layouts/application (50.9ms)
+  [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 235ms (Views: 228.5ms | ActiveRecord: 1.1ms)
+
+
+Started PATCH "/notes/12" for 127.0.0.1 at 2015-03-30 17:29:49 -0700
+Processing by NotesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yWFoU4kTsp+xHSfKaxE7po7T3joYU4+ffgUaJ1X0peY=", "note"=>{"title"=>"Todo", "content"=>"1. Eat Cake\r\n2. Eat Pie\r\n3. Love life\r\n"}, "commit"=>"Submit", "id"=>"12"}
+  [1m[36mNote Load (0.4ms)[0m  [1mSELECT  "notes".* FROM "notes"  WHERE "notes"."id" = ? LIMIT 1[0m  [["id", 12]]
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (4.0ms)[0m  [1mUPDATE "notes" SET "content" = ?, "updated_at" = ? WHERE "notes"."id" = 12[0m  [["content", "1. Eat Cake\r\n2. Eat Pie\r\n3. Love life\r\n"], ["updated_at", "2015-03-31 00:29:49.716499"]]
+  [1m[35m (164.1ms)[0m  commit transaction
+Redirected to http://0.0.0.0:3000/notes/12
+Completed 302 Found in 187ms (ActiveRecord: 168.6ms)
+
+
+Started GET "/notes/12" for 127.0.0.1 at 2015-03-30 17:29:49 -0700
+Processing by NotesController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mNote Load (0.8ms)[0m  [1mSELECT  "notes".* FROM "notes"  WHERE "notes"."id" = ? LIMIT 1[0m  [["id", 12]]
+  Rendered notes/show.html.haml within layouts/application (2.7ms)
+  [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 118ms (Views: 111.9ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-30 17:29:50 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-30 17:29:50 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-30 17:29:50 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-30 17:29:50 -0700
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-03-30 17:29:50 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-03-30 17:29:50 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-30 17:29:50 -0700
+
+
+Started GET "/assets/bootstrap.min.css" for 127.0.0.1 at 2015-03-30 17:29:50 -0700
+
+
+Started GET "/notes" for 127.0.0.1 at 2015-03-30 17:29:55 -0700
+Processing by NotesController#index as HTML
+  [1m[36mUser Load (1.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mNote Load (1.0ms)[0m  SELECT "notes".* FROM "notes"  WHERE "notes"."user_id" = 2
+  Rendered notes/index.html.haml within layouts/application (7.2ms)
+Completed 200 OK in 111ms (Views: 103.0ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/notes/12" for 127.0.0.1 at 2015-03-30 17:30:27 -0700
+Processing by NotesController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mNote Load (0.3ms)[0m  [1mSELECT  "notes".* FROM "notes"  WHERE "notes"."id" = ? LIMIT 1[0m  [["id", 12]]
+  Rendered notes/show.html.haml within layouts/application (2.8ms)
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 121ms (Views: 115.1ms | ActiveRecord: 1.0ms)
+
+
+Started DELETE "/notes/12" for 127.0.0.1 at 2015-03-30 17:30:49 -0700
+Processing by NotesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"yWFoU4kTsp+xHSfKaxE7po7T3joYU4+ffgUaJ1X0peY=", "id"=>"12"}
+  [1m[36mNote Load (0.3ms)[0m  [1mSELECT  "notes".* FROM "notes"  WHERE "notes"."id" = ? LIMIT 1[0m  [["id", 12]]
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mDELETE FROM "notes" WHERE "notes"."id" = ?[0m  [["id", 12]]
+  [1m[35m (129.8ms)[0m  commit transaction
+Redirected to http://0.0.0.0:3000/notes
+Completed 302 Found in 140ms (ActiveRecord: 131.1ms)
+
+
+Started GET "/notes" for 127.0.0.1 at 2015-03-30 17:30:49 -0700
+Processing by NotesController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mNote Load (0.6ms)[0m  SELECT "notes".* FROM "notes"  WHERE "notes"."user_id" = 2
+  Rendered notes/index.html.haml within layouts/application (4.9ms)
+Completed 200 OK in 109ms (Views: 101.8ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-30 17:30:50 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-30 17:30:50 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-30 17:30:50 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-30 17:30:50 -0700
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-03-30 17:30:50 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-03-30 17:30:50 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-30 17:30:50 -0700
+
+
+Started GET "/assets/bootstrap.min.css" for 127.0.0.1 at 2015-03-30 17:30:50 -0700
+
+
+Started GET "/notes/13" for 127.0.0.1 at 2015-03-30 17:30:52 -0700
+Processing by NotesController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[36mNote Load (0.4ms)[0m  [1mSELECT  "notes".* FROM "notes"  WHERE "notes"."id" = ? LIMIT 1[0m  [["id", 13]]
+  Rendered notes/show.html.haml within layouts/application (6.7ms)
+  [1m[35mUser Load (1.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 142ms (Views: 132.9ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/notes/13/edit" for 127.0.0.1 at 2015-03-30 17:30:57 -0700
+Processing by NotesController#edit as HTML
+  Parameters: {"id"=>"13"}
+  [1m[36mNote Load (0.4ms)[0m  [1mSELECT  "notes".* FROM "notes"  WHERE "notes"."id" = ? LIMIT 1[0m  [["id", 13]]
+  Rendered notes/_form.html.haml (39.7ms)
+  Rendered notes/edit.html.haml within layouts/application (46.3ms)
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 157ms (Views: 149.4ms | ActiveRecord: 1.0ms)
+
+
+Started PATCH "/notes/13" for 127.0.0.1 at 2015-03-30 17:31:03 -0700
+Processing by NotesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yWFoU4kTsp+xHSfKaxE7po7T3joYU4+ffgUaJ1X0peY=", "note"=>{"title"=>"Vacation Plan", "content"=>"Eat alot drink alot\r\n"}, "commit"=>"Submit", "id"=>"13"}
+  [1m[36mNote Load (0.3ms)[0m  [1mSELECT  "notes".* FROM "notes"  WHERE "notes"."id" = ? LIMIT 1[0m  [["id", 13]]
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.7ms)[0m  [1mUPDATE "notes" SET "content" = ?, "updated_at" = ? WHERE "notes"."id" = 13[0m  [["content", "Eat alot drink alot\r\n"], ["updated_at", "2015-03-31 00:31:03.539430"]]
+  [1m[35m (162.9ms)[0m  commit transaction
+Redirected to http://0.0.0.0:3000/notes/13
+Completed 302 Found in 180ms (ActiveRecord: 164.2ms)
+
+
+Started GET "/notes/13" for 127.0.0.1 at 2015-03-30 17:31:03 -0700
+Processing by NotesController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[36mNote Load (0.5ms)[0m  [1mSELECT  "notes".* FROM "notes"  WHERE "notes"."id" = ? LIMIT 1[0m  [["id", 13]]
+  Rendered notes/show.html.haml within layouts/application (2.4ms)
+  [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 109ms (Views: 104.1ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-30 17:31:04 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-30 17:31:04 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-30 17:31:04 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-30 17:31:04 -0700
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-03-30 17:31:04 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-30 17:31:04 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-03-30 17:31:04 -0700
+
+
+Started GET "/assets/bootstrap.min.css" for 127.0.0.1 at 2015-03-30 17:31:04 -0700
+
+
+Started GET "/notes/13/edit" for 127.0.0.1 at 2015-03-30 17:31:07 -0700
+Processing by NotesController#edit as HTML
+  Parameters: {"id"=>"13"}
+  [1m[36mNote Load (0.3ms)[0m  [1mSELECT  "notes".* FROM "notes"  WHERE "notes"."id" = ? LIMIT 1[0m  [["id", 13]]
+  Rendered notes/_form.html.haml (27.2ms)
+  Rendered notes/edit.html.haml within layouts/application (31.3ms)
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 153ms (Views: 146.3ms | ActiveRecord: 1.3ms)
+
+
+Started PATCH "/notes/13" for 127.0.0.1 at 2015-03-30 17:31:17 -0700
+Processing by NotesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yWFoU4kTsp+xHSfKaxE7po7T3joYU4+ffgUaJ1X0peY=", "note"=>{"title"=>"Vacation Plan", "content"=>"Eat alot drink alot   t\r\n"}, "commit"=>"Submit", "id"=>"13"}
+  [1m[36mNote Load (0.3ms)[0m  [1mSELECT  "notes".* FROM "notes"  WHERE "notes"."id" = ? LIMIT 1[0m  [["id", 13]]
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.7ms)[0m  [1mUPDATE "notes" SET "content" = ?, "updated_at" = ? WHERE "notes"."id" = 13[0m  [["content", "Eat alot drink alot   t\r\n"], ["updated_at", "2015-03-31 00:31:17.832743"]]
+  [1m[35m (129.7ms)[0m  commit transaction
+Redirected to http://0.0.0.0:3000/notes/13
+Completed 302 Found in 149ms (ActiveRecord: 131.0ms)
+
+
+Started GET "/notes/13" for 127.0.0.1 at 2015-03-30 17:31:17 -0700
+Processing by NotesController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[36mNote Load (0.4ms)[0m  [1mSELECT  "notes".* FROM "notes"  WHERE "notes"."id" = ? LIMIT 1[0m  [["id", 13]]
+  Rendered notes/show.html.haml within layouts/application (3.1ms)
+  [1m[35mUser Load (0.8ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 117ms (Views: 111.2ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-30 17:31:18 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-30 17:31:18 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-30 17:31:18 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-30 17:31:18 -0700
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-03-30 17:31:18 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-03-30 17:31:18 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-30 17:31:18 -0700
+
+
+Started GET "/assets/bootstrap.min.css" for 127.0.0.1 at 2015-03-30 17:31:18 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddPictureToNotes (20150331003636)
+  [1m[35m (0.4ms)[0m  begin transaction
+  [1m[36m (1.5ms)[0m  [1mALTER TABLE "notes" ADD "picture" text[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150331003636"]]
+  [1m[36m (117.4ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.5ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.5ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.8ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+
+
+Started GET "/notes/new" for 127.0.0.1 at 2015-03-30 17:39:22 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by NotesController#new as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered notes/_form.html.haml (50.6ms)
+  Rendered notes/new.html.haml within layouts/application (53.8ms)
+Completed 200 OK in 238ms (Views: 176.6ms | ActiveRecord: 4.0ms)
+
+
+Started POST "/notes" for 127.0.0.1 at 2015-03-30 17:43:04 -0700
+Processing by NotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yWFoU4kTsp+xHSfKaxE7po7T3joYU4+ffgUaJ1X0peY=", "note"=>{"title"=>"ME", "content"=>"ME\r\n\r\n\r\n", "picture"=>"http://iheartkode.com/img/selfie.jpg"}, "commit"=>"Submit"}
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1[0m
+Unpermitted parameters: picture
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "notes" ("content", "created_at", "title", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["content", "ME\r\n\r\n\r\n"], ["created_at", "2015-03-31 00:43:04.900310"], ["title", "ME"], ["updated_at", "2015-03-31 00:43:04.900310"], ["user_id", 2]]
+  [1m[35m (243.7ms)[0m  commit transaction
+Redirected to http://0.0.0.0:3000/notes/15
+Completed 302 Found in 274ms (ActiveRecord: 245.6ms)
+
+
+Started GET "/notes/15" for 127.0.0.1 at 2015-03-30 17:43:05 -0700
+Processing by NotesController#show as HTML
+  Parameters: {"id"=>"15"}
+  [1m[36mNote Load (0.7ms)[0m  [1mSELECT  "notes".* FROM "notes"  WHERE "notes"."id" = ? LIMIT 1[0m  [["id", 15]]
+  Rendered notes/show.html.haml within layouts/application (5.7ms)
+  [1m[35mUser Load (0.8ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 125ms (Views: 111.6ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-30 17:43:05 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-30 17:43:05 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-30 17:43:05 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-30 17:43:05 -0700
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-03-30 17:43:05 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-03-30 17:43:05 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-30 17:43:05 -0700
+
+
+Started GET "/assets/bootstrap.min.css" for 127.0.0.1 at 2015-03-30 17:43:06 -0700
+
+
+Started GET "/notes/15" for 127.0.0.1 at 2015-03-30 17:43:23 -0700
+Processing by NotesController#show as HTML
+  Parameters: {"id"=>"15"}
+  [1m[36mNote Load (0.3ms)[0m  [1mSELECT  "notes".* FROM "notes"  WHERE "notes"."id" = ? LIMIT 1[0m  [["id", 15]]
+  Rendered notes/show.html.haml within layouts/application (12.4ms)
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 162ms (Views: 156.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-30 17:43:23 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-30 17:43:23 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-30 17:43:23 -0700
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-03-30 17:43:23 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-30 17:43:23 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-30 17:43:23 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-03-30 17:43:23 -0700
+
+
+Started GET "/assets/bootstrap.min.css" for 127.0.0.1 at 2015-03-30 17:43:23 -0700
+
+
+Started GET "/notes/15/edit" for 127.0.0.1 at 2015-03-30 17:43:50 -0700
+Processing by NotesController#edit as HTML
+  Parameters: {"id"=>"15"}
+  [1m[36mNote Load (0.3ms)[0m  [1mSELECT  "notes".* FROM "notes"  WHERE "notes"."id" = ? LIMIT 1[0m  [["id", 15]]
+  Rendered notes/_form.html.haml (35.7ms)
+  Rendered notes/edit.html.haml within layouts/application (40.8ms)
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 152ms (Views: 146.6ms | ActiveRecord: 0.9ms)
+
+
+Started PATCH "/notes/15" for 127.0.0.1 at 2015-03-30 17:43:55 -0700
+Processing by NotesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yWFoU4kTsp+xHSfKaxE7po7T3joYU4+ffgUaJ1X0peY=", "note"=>{"title"=>"ME", "content"=>"ME\r\n\r\n\r\n", "picture"=>"http://iheartkode.com/img/selfie.jpg"}, "commit"=>"Submit", "id"=>"15"}
+  [1m[36mNote Load (0.3ms)[0m  [1mSELECT  "notes".* FROM "notes"  WHERE "notes"."id" = ? LIMIT 1[0m  [["id", 15]]
+Unpermitted parameters: picture
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://0.0.0.0:3000/notes/15
+Completed 302 Found in 19ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/notes/15" for 127.0.0.1 at 2015-03-30 17:43:55 -0700
+Processing by NotesController#show as HTML
+  Parameters: {"id"=>"15"}
+  [1m[35mNote Load (1.4ms)[0m  SELECT  "notes".* FROM "notes"  WHERE "notes"."id" = ? LIMIT 1  [["id", 15]]
+  Rendered notes/show.html.haml within layouts/application (2.1ms)
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 120ms (Views: 109.3ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-30 17:43:55 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-30 17:43:55 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-30 17:43:55 -0700
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-03-30 17:43:55 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-30 17:43:55 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-30 17:43:55 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-03-30 17:43:55 -0700
+
+
+Started GET "/assets/bootstrap.min.css" for 127.0.0.1 at 2015-03-30 17:43:56 -0700
+
+
+Started GET "/notes/15" for 127.0.0.1 at 2015-03-30 17:44:13 -0700
+Processing by NotesController#show as HTML
+  Parameters: {"id"=>"15"}
+  [1m[35mNote Load (0.3ms)[0m  SELECT  "notes".* FROM "notes"  WHERE "notes"."id" = ? LIMIT 1  [["id", 15]]
+  Rendered notes/show.html.haml within layouts/application (38.8ms)
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 148ms (Views: 141.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-30 17:44:13 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-30 17:44:13 -0700
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-03-30 17:44:13 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-30 17:44:13 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-30 17:44:13 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-03-30 17:44:13 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-30 17:44:13 -0700
+
+
+Started GET "/images/@note.picture" for 127.0.0.1 at 2015-03-30 17:44:13 -0700
+
+ActionController::RoutingError (No route matches [GET] "/images/@note.picture"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/mark/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/mark/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/mark/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/mark/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendered /home/mark/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (14.5ms)
+  Rendered /home/mark/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (11.8ms)
+  Rendered /home/mark/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (135.2ms)
+
+
+Started GET "/assets/bootstrap.min.css" for 127.0.0.1 at 2015-03-30 17:44:13 -0700
+
+
+Started GET "/notes/15" for 127.0.0.1 at 2015-03-30 17:44:19 -0700
+Processing by NotesController#show as HTML
+  Parameters: {"id"=>"15"}
+  [1m[35mNote Load (0.3ms)[0m  SELECT  "notes".* FROM "notes"  WHERE "notes"."id" = ? LIMIT 1  [["id", 15]]
+  Rendered notes/show.html.haml within layouts/application (6.9ms)
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 120ms (Views: 113.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-30 17:44:20 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-30 17:44:20 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-30 17:44:20 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-30 17:44:20 -0700
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-03-30 17:44:20 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-03-30 17:44:20 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-30 17:44:20 -0700
+
+
+Started GET "/assets/bootstrap.min.css" for 127.0.0.1 at 2015-03-30 17:44:20 -0700
+
+
+Started GET "/notes/new" for 127.0.0.1 at 2015-03-30 17:44:34 -0700
+Processing by NotesController#new as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered notes/_form.html.haml (36.4ms)
+  Rendered notes/new.html.haml within layouts/application (43.0ms)
+Completed 200 OK in 165ms (Views: 151.8ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/notes" for 127.0.0.1 at 2015-03-30 17:44:40 -0700
+Processing by NotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yWFoU4kTsp+xHSfKaxE7po7T3joYU4+ffgUaJ1X0peY=", "note"=>{"title"=>"dsfdf", "content"=>"dsfdsfsdf", "picture"=>"http://iheartkode.com/img/selfie.jpg"}, "commit"=>"Submit"}
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1[0m
+Unpermitted parameters: picture
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "notes" ("content", "created_at", "title", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["content", "dsfdsfsdf"], ["created_at", "2015-03-31 00:44:40.332991"], ["title", "dsfdf"], ["updated_at", "2015-03-31 00:44:40.332991"], ["user_id", 2]]
+  [1m[35m (246.6ms)[0m  commit transaction
+Redirected to http://0.0.0.0:3000/notes/16
+Completed 302 Found in 293ms (ActiveRecord: 248.2ms)
+
+
+Started GET "/notes/16" for 127.0.0.1 at 2015-03-30 17:44:40 -0700
+Processing by NotesController#show as HTML
+  Parameters: {"id"=>"16"}
+  [1m[36mNote Load (0.6ms)[0m  [1mSELECT  "notes".* FROM "notes"  WHERE "notes"."id" = ? LIMIT 1[0m  [["id", 16]]
+  Rendered notes/show.html.haml within layouts/application (2.3ms)
+  [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 125ms (Views: 118.2ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-30 17:44:41 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-30 17:44:41 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-30 17:44:41 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-30 17:44:41 -0700
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-03-30 17:44:41 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-03-30 17:44:41 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-30 17:44:41 -0700
+
+
+Started GET "/assets/bootstrap.min.css" for 127.0.0.1 at 2015-03-30 17:44:41 -0700
+
+
+Started GET "/notes" for 127.0.0.1 at 2015-03-30 17:44:44 -0700
+Processing by NotesController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mNote Load (0.6ms)[0m  SELECT "notes".* FROM "notes"  WHERE "notes"."user_id" = 2
+  Rendered notes/index.html.haml within layouts/application (7.0ms)
+Completed 200 OK in 109ms (Views: 102.0ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/notes/16" for 127.0.0.1 at 2015-03-30 17:44:48 -0700
+Processing by NotesController#show as HTML
+  Parameters: {"id"=>"16"}
+  [1m[36mNote Load (0.3ms)[0m  [1mSELECT  "notes".* FROM "notes"  WHERE "notes"."id" = ? LIMIT 1[0m  [["id", 16]]
+  Rendered notes/show.html.haml within layouts/application (8.2ms)
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 131ms (Views: 125.3ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/notes/new" for 127.0.0.1 at 2015-03-30 17:45:37 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by NotesController#new as HTML
+  [1m[35mUser Load (0.8ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered notes/_form.html.haml (216.9ms)
+  Rendered notes/new.html.haml within layouts/application (237.4ms)
+Completed 200 OK in 773ms (Views: 500.9ms | ActiveRecord: 4.0ms)
+
+
+Started POST "/notes" for 127.0.0.1 at 2015-03-30 17:45:42 -0700
+Processing by NotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yWFoU4kTsp+xHSfKaxE7po7T3joYU4+ffgUaJ1X0peY=", "note"=>{"title"=>"dfsdfsfd", "content"=>"dsfdf", "picture"=>"http://iheartkode.com/img/selfie.jpg"}, "commit"=>"Submit"}
+  [1m[36mUser Load (5.7ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1[0m
+Unpermitted parameters: picture
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mSQL (1.3ms)[0m  [1mINSERT INTO "notes" ("content", "created_at", "title", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["content", "dsfdf"], ["created_at", "2015-03-31 00:45:42.869431"], ["title", "dfsdfsfd"], ["updated_at", "2015-03-31 00:45:42.869431"], ["user_id", 2]]
+  [1m[35m (227.7ms)[0m  commit transaction
+Redirected to http://0.0.0.0:3000/notes/17
+Completed 302 Found in 274ms (ActiveRecord: 235.0ms)
+
+
+Started GET "/notes/17" for 127.0.0.1 at 2015-03-30 17:45:43 -0700
+Processing by NotesController#show as HTML
+  Parameters: {"id"=>"17"}
+  [1m[36mNote Load (0.7ms)[0m  [1mSELECT  "notes".* FROM "notes"  WHERE "notes"."id" = ? LIMIT 1[0m  [["id", 17]]
+  Rendered notes/show.html.haml within layouts/application (17.5ms)
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 140ms (Views: 131.6ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-30 17:45:43 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-30 17:45:43 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-30 17:45:43 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-30 17:45:43 -0700
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-03-30 17:45:43 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-03-30 17:45:43 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-30 17:45:43 -0700
+
+
+Started GET "/assets/bootstrap.min.css" for 127.0.0.1 at 2015-03-30 17:45:44 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.5ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.5ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.7ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+
+
+Started GET "/notes/new" for 127.0.0.1 at 2015-03-30 17:47:00 -0700
+Processing by NotesController#new as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered notes/_form.html.haml (4.1ms)
+  Rendered notes/new.html.haml within layouts/application (7.1ms)
+Completed 500 Internal Server Error in 78ms
+
+SyntaxError (/home/mark/Desktop/mynotes/app/views/notes/_form.html.haml:6: syntax error, unexpected ',', expecting =>
+));}\n", 0, false);end;_hamlout.buffer <...
+           ^
+/home/mark/Desktop/mynotes/app/views/notes/_form.html.haml:6: syntax error, unexpected keyword_ensure, expecting tSTRING_DEND
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                               ^
+/home/mark/Desktop/mynotes/app/views/notes/_form.html.haml:6: syntax error, unexpected keyword_end, expecting tSTRING_DEND
+...uffer.upper if @haml_buffer;end;
+...                               ^
+/home/mark/Desktop/mynotes/app/views/notes/_form.html.haml:9: syntax error, unexpected keyword_end, expecting tSTRING_DEND):
+  app/views/notes/_form.html.haml:6: syntax error, unexpected ',', expecting =>
+  app/views/notes/_form.html.haml:6: syntax error, unexpected keyword_ensure, expecting tSTRING_DEND
+  app/views/notes/_form.html.haml:6: syntax error, unexpected keyword_end, expecting tSTRING_DEND
+  app/views/notes/_form.html.haml:9: syntax error, unexpected keyword_end, expecting tSTRING_DEND
+  app/views/notes/new.html.haml:3:in `_app_views_notes_new_html_haml__1117562235607458326_69941238486700'
+
+
+  Rendered /home/mark/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.5ms)
+  Rendered /home/mark/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (10.3ms)
+  Rendered /home/mark/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.0ms)
+  Rendered /home/mark/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (104.0ms)
+
+
+Started GET "/notes/new" for 127.0.0.1 at 2015-03-30 17:47:01 -0700
+Processing by NotesController#new as HTML
+  [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered notes/_form.html.haml (3.6ms)
+  Rendered notes/new.html.haml within layouts/application (9.1ms)
+Completed 500 Internal Server Error in 23ms
+
+SyntaxError (/home/mark/Desktop/mynotes/app/views/notes/_form.html.haml:6: syntax error, unexpected ',', expecting =>
+));}\n", 0, false);end;_hamlout.buffer <...
+           ^
+/home/mark/Desktop/mynotes/app/views/notes/_form.html.haml:6: syntax error, unexpected keyword_ensure, expecting tSTRING_DEND
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                               ^
+/home/mark/Desktop/mynotes/app/views/notes/_form.html.haml:6: syntax error, unexpected keyword_end, expecting tSTRING_DEND
+...uffer.upper if @haml_buffer;end;
+...                               ^
+/home/mark/Desktop/mynotes/app/views/notes/_form.html.haml:9: syntax error, unexpected keyword_end, expecting tSTRING_DEND):
+  app/views/notes/_form.html.haml:6: syntax error, unexpected ',', expecting =>
+  app/views/notes/_form.html.haml:6: syntax error, unexpected keyword_ensure, expecting tSTRING_DEND
+  app/views/notes/_form.html.haml:6: syntax error, unexpected keyword_end, expecting tSTRING_DEND
+  app/views/notes/_form.html.haml:9: syntax error, unexpected keyword_end, expecting tSTRING_DEND
+  app/views/notes/new.html.haml:3:in `_app_views_notes_new_html_haml__1117562235607458326_69941238713560'
+
+
+  Rendered /home/mark/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.8ms)
+  Rendered /home/mark/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.8ms)
+  Rendered /home/mark/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.9ms)
+  Rendered /home/mark/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (84.1ms)
+
+
+Started GET "/notes/new" for 127.0.0.1 at 2015-03-30 17:47:37 -0700
+Processing by NotesController#new as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered notes/_form.html.haml (4.1ms)
+  Rendered notes/new.html.haml within layouts/application (7.2ms)
+Completed 500 Internal Server Error in 23ms
+
+SyntaxError (/home/mark/Desktop/mynotes/app/views/notes/_form.html.haml:6: syntax error, unexpected ',', expecting =>
+));}\nend\n", 0, false);end;_hamlout.buffer <...
+                ^
+/home/mark/Desktop/mynotes/app/views/notes/_form.html.haml:6: syntax error, unexpected keyword_ensure, expecting tSTRING_DEND
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                               ^
+/home/mark/Desktop/mynotes/app/views/notes/_form.html.haml:6: syntax error, unexpected keyword_end, expecting tSTRING_DEND
+...uffer.upper if @haml_buffer;end;
+...                               ^
+/home/mark/Desktop/mynotes/app/views/notes/_form.html.haml:9: syntax error, unexpected keyword_end, expecting tSTRING_DEND):
+  app/views/notes/_form.html.haml:6: syntax error, unexpected ',', expecting =>
+  app/views/notes/_form.html.haml:6: syntax error, unexpected keyword_ensure, expecting tSTRING_DEND
+  app/views/notes/_form.html.haml:6: syntax error, unexpected keyword_end, expecting tSTRING_DEND
+  app/views/notes/_form.html.haml:9: syntax error, unexpected keyword_end, expecting tSTRING_DEND
+  app/views/notes/new.html.haml:3:in `_app_views_notes_new_html_haml__1117562235607458326_69941238713560'
+
+
+  Rendered /home/mark/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.1ms)
+  Rendered /home/mark/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.7ms)
+  Rendered /home/mark/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.1ms)
+  Rendered /home/mark/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (59.9ms)
+
+
+Started GET "/notes/new" for 127.0.0.1 at 2015-03-30 17:47:58 -0700
+Processing by NotesController#new as HTML
+  [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered notes/_form.html.haml (61.1ms)
+  Rendered notes/new.html.haml within layouts/application (68.2ms)
+Completed 200 OK in 181ms (Views: 173.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-30 17:47:58 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-30 17:47:58 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-30 17:47:58 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-30 17:47:58 -0700
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-03-30 17:47:58 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-03-30 17:47:58 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-30 17:47:58 -0700
+
+
+Started GET "/assets/bootstrap.min.css" for 127.0.0.1 at 2015-03-30 17:47:58 -0700
+
+
+Started GET "/notes/new" for 127.0.0.1 at 2015-03-30 17:48:11 -0700
+Processing by NotesController#new as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered notes/_form.html.haml (8.4ms)
+  Rendered notes/new.html.haml within layouts/application (13.2ms)
+Completed 500 Internal Server Error in 33ms
+
+SyntaxError (/home/mark/Desktop/mynotes/app/views/notes/_form.html.haml:6: syntax error, unexpected keyword_end
+/home/mark/Desktop/mynotes/app/views/notes/_form.html.haml:7: unterminated string meets end of file
+/home/mark/Desktop/mynotes/app/views/notes/_form.html.haml:7: syntax error, unexpected end-of-input, expecting ')'):
+  app/views/notes/_form.html.haml:6: syntax error, unexpected keyword_end
+  app/views/notes/_form.html.haml:7: unterminated string meets end of file
+  app/views/notes/_form.html.haml:7: syntax error, unexpected end-of-input, expecting ')'
+  app/views/notes/new.html.haml:3:in `_app_views_notes_new_html_haml__1117562235607458326_69941238713560'
+
+
+  Rendered /home/mark/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.1ms)
+  Rendered /home/mark/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.8ms)
+  Rendered /home/mark/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered /home/mark/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (59.0ms)
+
+
+Started GET "/notes/new" for 127.0.0.1 at 2015-03-30 17:48:23 -0700
+Processing by NotesController#new as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered notes/_form.html.haml (36.5ms)
+  Rendered notes/new.html.haml within layouts/application (39.1ms)
+Completed 200 OK in 166ms (Views: 157.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-30 17:48:24 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-30 17:48:24 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-30 17:48:24 -0700
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-03-30 17:48:24 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-30 17:48:24 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-30 17:48:24 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-03-30 17:48:24 -0700
+
+
+Started GET "/assets/bootstrap.min.css" for 127.0.0.1 at 2015-03-30 17:48:24 -0700
+
+
+Started POST "/notes" for 127.0.0.1 at 2015-03-30 17:48:46 -0700
+Processing by NotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yWFoU4kTsp+xHSfKaxE7po7T3joYU4+ffgUaJ1X0peY=", "note"=>{"title"=>"dfsdf", "content"=>"dfsdf", "picture"=>"http://iheartkode.com/img/sandiego.jpg"}, "commit"=>"Submit"}
+  [1m[36mUser Load (4.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1[0m
+Unpermitted parameters: picture
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mSQL (7.3ms)[0m  [1mINSERT INTO "notes" ("content", "created_at", "title", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["content", "dfsdf"], ["created_at", "2015-03-31 00:48:46.853187"], ["title", "dfsdf"], ["updated_at", "2015-03-31 00:48:46.853187"], ["user_id", 2]]
+  [1m[35m (198.6ms)[0m  commit transaction
+Redirected to http://0.0.0.0:3000/notes/18
+Completed 302 Found in 236ms (ActiveRecord: 210.3ms)
+
+
+Started GET "/notes/18" for 127.0.0.1 at 2015-03-30 17:48:47 -0700
+Processing by NotesController#show as HTML
+  Parameters: {"id"=>"18"}
+  [1m[36mNote Load (3.3ms)[0m  [1mSELECT  "notes".* FROM "notes"  WHERE "notes"."id" = ? LIMIT 1[0m  [["id", 18]]
+  Rendered notes/show.html.haml within layouts/application (2.9ms)
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 118ms (Views: 108.7ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-30 17:48:47 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-30 17:48:47 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-30 17:48:47 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-30 17:48:47 -0700
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-03-30 17:48:47 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-03-30 17:48:47 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-30 17:48:47 -0700
+
+
+Started GET "/assets/bootstrap.min.css" for 127.0.0.1 at 2015-03-30 17:48:48 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-04 12:47:32 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (23.2ms)
+Completed 200 OK in 637ms (Views: 627.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-04 12:47:34 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-04 12:47:34 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-04 12:47:34 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-04 12:47:34 -0700
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-06-04 12:47:34 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-06-04 12:47:34 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-04 12:47:34 -0700
+
+
+Started GET "/assets/bootstrap.min.css" for 127.0.0.1 at 2015-06-04 12:47:34 -0700
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-06-04 12:47:40 -0700
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (5.1ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (522.1ms)
+Completed 200 OK in 741ms (Views: 725.3ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-06-04 12:47:44 -0700
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (3.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (78.0ms)
+Completed 200 OK in 230ms (Views: 221.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2015-06-04 12:47:46 -0700
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HHrpFfrzLSjyXzqv+JWJzWp//a1fkG1HA3uhvCXPlCU=", "user"=>{"email"=>"mark@iheartkode.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (4.9ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = 'mark@iheartkode.com'  ORDER BY "users"."id" ASC LIMIT 1
+Completed 401 Unauthorized in 53ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HHrpFfrzLSjyXzqv+JWJzWp//a1fkG1HA3uhvCXPlCU=", "user"=>{"email"=>"mark@iheartkode.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendered devise/shared/_links.html.erb (1.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (46.1ms)
+Completed 200 OK in 392ms (Views: 177.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-06-04 12:47:47 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-04 12:47:47 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-04 12:47:47 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-04 12:47:47 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-04 12:47:47 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-04 12:47:47 -0700
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-06-04 12:47:47 -0700
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-06-04 12:47:59 -0700
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (36.3ms)
+Completed 200 OK in 155ms (Views: 151.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-04 12:48:00 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-04 12:48:00 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-04 12:48:00 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-04 12:48:00 -0700
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-06-04 12:48:00 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-06-04 12:48:00 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-04 12:48:00 -0700
+
+
+Started POST "/users" for 127.0.0.1 at 2015-06-04 12:48:21 -0700
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HHrpFfrzLSjyXzqv+JWJzWp//a1fkG1HA3uhvCXPlCU=", "user"=>{"email"=>"markhjr@outlook.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.5ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'markhjr@outlook.com' LIMIT 1
+  [1m[36m (1.1ms)[0m  [1mrollback transaction[0m
+  Rendered devise/shared/_links.html.erb (2.4ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (48.7ms)
+Completed 200 OK in 587ms (Views: 262.4ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-04 12:48:22 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-04 12:48:22 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-04 12:48:22 -0700
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-06-04 12:48:22 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-06-04 12:48:22 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-04 12:48:22 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-04 12:48:22 -0700
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-06-04 12:48:31 -0700
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (56.0ms)
+Completed 200 OK in 178ms (Views: 171.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-04 12:48:31 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-04 12:48:32 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-04 12:48:32 -0700
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-06-04 12:48:32 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-06-04 12:48:32 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-04 12:48:32 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-04 12:48:32 -0700
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2015-06-04 12:48:37 -0700
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HHrpFfrzLSjyXzqv+JWJzWp//a1fkG1HA3uhvCXPlCU=", "user"=>{"email"=>"markhjr@outlook.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.8ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = 'markhjr@outlook.com'  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  UPDATE "users" SET "current_sign_in_at" = ?, "last_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = 2  [["current_sign_in_at", "2015-06-04 19:48:38.037573"], ["last_sign_in_at", "2015-03-31 00:18:45.686578"], ["sign_in_count", 4], ["updated_at", "2015-06-04 19:48:38.044493"]]
+  [1m[36m (206.9ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 577ms (ActiveRecord: 209.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-04 12:48:38 -0700
+  [1m[35mUser Load (0.8ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+Processing by NotesController#index as HTML
+  [1m[36mNote Load (2.6ms)[0m  [1mSELECT "notes".* FROM "notes"  WHERE "notes"."user_id" = 2[0m
+  Rendered notes/index.html.haml within layouts/application (50.2ms)
+Completed 200 OK in 285ms (Views: 231.5ms | ActiveRecord: 5.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-04 12:48:39 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-04 12:48:39 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-04 12:48:39 -0700
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-06-04 12:48:39 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-06-04 12:48:39 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-04 12:48:39 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-04 12:48:39 -0700
+
+
+Started GET "/notes/18" for 127.0.0.1 at 2015-06-04 12:48:44 -0700
+Processing by NotesController#show as HTML
+  Parameters: {"id"=>"18"}
+  [1m[35mNote Load (1.1ms)[0m  SELECT  "notes".* FROM "notes"  WHERE "notes"."id" = ? LIMIT 1  [["id", 18]]
+  Rendered notes/show.html.haml within layouts/application (64.9ms)
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 236ms (Views: 227.5ms | ActiveRecord: 1.9ms)
+
+
+Started DELETE "/notes/18" for 127.0.0.1 at 2015-06-04 12:48:48 -0700
+Processing by NotesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"iPwyL3Ge0OGWSb4t7+nJwZcZAEfz2qdc75s/CmNjX4Y=", "id"=>"18"}
+  [1m[35mNote Load (0.5ms)[0m  SELECT  "notes".* FROM "notes"  WHERE "notes"."id" = ? LIMIT 1  [["id", 18]]
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.2ms)[0m  DELETE FROM "notes" WHERE "notes"."id" = ?  [["id", 18]]
+  [1m[36m (166.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/notes
+Completed 302 Found in 180ms (ActiveRecord: 169.0ms)
+
+
+Started GET "/notes" for 127.0.0.1 at 2015-06-04 12:48:48 -0700
+Processing by NotesController#index as HTML
+  [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mNote Load (0.7ms)[0m  [1mSELECT "notes".* FROM "notes"  WHERE "notes"."user_id" = 2[0m
+  Rendered notes/index.html.haml within layouts/application (16.8ms)
+Completed 200 OK in 238ms (Views: 227.3ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-04 12:48:49 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-04 12:48:49 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-04 12:48:49 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-04 12:48:49 -0700
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-06-04 12:48:49 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-06-04 12:48:49 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-04 12:48:49 -0700
+
+
+Started GET "/notes/17" for 127.0.0.1 at 2015-06-04 12:48:52 -0700
+Processing by NotesController#show as HTML
+  Parameters: {"id"=>"17"}
+  [1m[35mNote Load (0.4ms)[0m  SELECT  "notes".* FROM "notes"  WHERE "notes"."id" = ? LIMIT 1  [["id", 17]]
+  Rendered notes/show.html.haml within layouts/application (6.9ms)
+  [1m[36mUser Load (1.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 200ms (Views: 190.4ms | ActiveRecord: 1.6ms)
+
+
+Started DELETE "/notes/17" for 127.0.0.1 at 2015-06-04 12:48:55 -0700
+Processing by NotesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"iPwyL3Ge0OGWSb4t7+nJwZcZAEfz2qdc75s/CmNjX4Y=", "id"=>"17"}
+  [1m[35mNote Load (2.1ms)[0m  SELECT  "notes".* FROM "notes"  WHERE "notes"."id" = ? LIMIT 1  [["id", 17]]
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  DELETE FROM "notes" WHERE "notes"."id" = ?  [["id", 17]]
+  [1m[36m (139.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/notes
+Completed 302 Found in 157ms (ActiveRecord: 142.9ms)
+
+
+Started GET "/notes" for 127.0.0.1 at 2015-06-04 12:48:55 -0700
+Processing by NotesController#index as HTML
+  [1m[35mUser Load (0.8ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mNote Load (0.7ms)[0m  [1mSELECT "notes".* FROM "notes"  WHERE "notes"."user_id" = 2[0m
+  Rendered notes/index.html.haml within layouts/application (11.8ms)
+Completed 200 OK in 172ms (Views: 160.7ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-04 12:48:56 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-04 12:48:56 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-04 12:48:56 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-04 12:48:56 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-06-04 12:48:56 -0700
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-06-04 12:48:56 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-04 12:48:56 -0700
+
+
+Started GET "/notes/16" for 127.0.0.1 at 2015-06-04 12:48:58 -0700
+Processing by NotesController#show as HTML
+  Parameters: {"id"=>"16"}
+  [1m[35mNote Load (0.4ms)[0m  SELECT  "notes".* FROM "notes"  WHERE "notes"."id" = ? LIMIT 1  [["id", 16]]
+  Rendered notes/show.html.haml within layouts/application (3.0ms)
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 153ms (Views: 142.7ms | ActiveRecord: 1.1ms)
+
+
+Started DELETE "/notes/16" for 127.0.0.1 at 2015-06-04 12:49:01 -0700
+Processing by NotesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"iPwyL3Ge0OGWSb4t7+nJwZcZAEfz2qdc75s/CmNjX4Y=", "id"=>"16"}
+  [1m[35mNote Load (0.3ms)[0m  SELECT  "notes".* FROM "notes"  WHERE "notes"."id" = ? LIMIT 1  [["id", 16]]
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  DELETE FROM "notes" WHERE "notes"."id" = ?  [["id", 16]]
+  [1m[36m (190.5ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/notes
+Completed 302 Found in 205ms (ActiveRecord: 191.9ms)
+
+
+Started GET "/notes" for 127.0.0.1 at 2015-06-04 12:49:02 -0700
+Processing by NotesController#index as HTML
+  [1m[35mUser Load (2.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mNote Load (0.6ms)[0m  [1mSELECT "notes".* FROM "notes"  WHERE "notes"."user_id" = 2[0m
+  Rendered notes/index.html.haml within layouts/application (8.8ms)
+Completed 200 OK in 156ms (Views: 146.7ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-04 12:49:02 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-04 12:49:02 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-04 12:49:02 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-04 12:49:02 -0700
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-06-04 12:49:02 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-06-04 12:49:02 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-04 12:49:02 -0700
+
+
+Started GET "/notes/15" for 127.0.0.1 at 2015-06-04 12:49:05 -0700
+Processing by NotesController#show as HTML
+  Parameters: {"id"=>"15"}
+  [1m[35mNote Load (0.4ms)[0m  SELECT  "notes".* FROM "notes"  WHERE "notes"."id" = ? LIMIT 1  [["id", 15]]
+  Rendered notes/show.html.haml within layouts/application (8.0ms)
+  [1m[36mUser Load (1.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 184ms (Views: 176.7ms | ActiveRecord: 1.4ms)
+
+
+Started DELETE "/notes/15" for 127.0.0.1 at 2015-06-04 12:49:08 -0700
+Processing by NotesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"iPwyL3Ge0OGWSb4t7+nJwZcZAEfz2qdc75s/CmNjX4Y=", "id"=>"15"}
+  [1m[35mNote Load (0.4ms)[0m  SELECT  "notes".* FROM "notes"  WHERE "notes"."id" = ? LIMIT 1  [["id", 15]]
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  DELETE FROM "notes" WHERE "notes"."id" = ?  [["id", 15]]
+  [1m[36m (172.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/notes
+Completed 302 Found in 189ms (ActiveRecord: 173.5ms)
+
+
+Started GET "/notes" for 127.0.0.1 at 2015-06-04 12:49:08 -0700
+Processing by NotesController#index as HTML
+  [1m[35mUser Load (4.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mNote Load (0.6ms)[0m  [1mSELECT "notes".* FROM "notes"  WHERE "notes"."user_id" = 2[0m
+  Rendered notes/index.html.haml within layouts/application (8.2ms)
+Completed 200 OK in 148ms (Views: 137.5ms | ActiveRecord: 4.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-04 12:49:09 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-04 12:49:09 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-04 12:49:09 -0700
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-06-04 12:49:09 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-04 12:49:09 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-06-04 12:49:09 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-04 12:49:09 -0700
+
+
+Started GET "/notes/13" for 127.0.0.1 at 2015-06-04 12:49:11 -0700
+Processing by NotesController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[35mNote Load (0.3ms)[0m  SELECT  "notes".* FROM "notes"  WHERE "notes"."id" = ? LIMIT 1  [["id", 13]]
+  Rendered notes/show.html.haml within layouts/application (3.0ms)
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 170ms (Views: 163.3ms | ActiveRecord: 1.2ms)
+
+
+Started DELETE "/notes/13" for 127.0.0.1 at 2015-06-04 12:49:21 -0700
+Processing by NotesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"iPwyL3Ge0OGWSb4t7+nJwZcZAEfz2qdc75s/CmNjX4Y=", "id"=>"13"}
+  [1m[35mNote Load (0.6ms)[0m  SELECT  "notes".* FROM "notes"  WHERE "notes"."id" = ? LIMIT 1  [["id", 13]]
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  DELETE FROM "notes" WHERE "notes"."id" = ?  [["id", 13]]
+  [1m[36m (123.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/notes
+Completed 302 Found in 139ms (ActiveRecord: 124.7ms)
+
+
+Started GET "/notes" for 127.0.0.1 at 2015-06-04 12:49:22 -0700
+Processing by NotesController#index as HTML
+  [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mNote Load (0.6ms)[0m  [1mSELECT "notes".* FROM "notes"  WHERE "notes"."user_id" = 2[0m
+  Rendered notes/index.html.haml within layouts/application (3.7ms)
+Completed 200 OK in 170ms (Views: 148.3ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-04 12:49:23 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-04 12:49:23 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-04 12:49:23 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-04 12:49:23 -0700
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-06-04 12:49:23 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-06-04 12:49:23 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-04 12:49:23 -0700
+
+
+Started GET "/notes/new" for 127.0.0.1 at 2015-06-04 12:49:26 -0700
+Processing by NotesController#new as HTML
+  [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered notes/_form.html.haml (90.8ms)
+  Rendered notes/new.html.haml within layouts/application (111.2ms)
+Completed 200 OK in 341ms (Views: 243.7ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/notes" for 127.0.0.1 at 2015-06-04 12:50:29 -0700
+Processing by NotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iPwyL3Ge0OGWSb4t7+nJwZcZAEfz2qdc75s/CmNjX4Y=", "note"=>{"title"=>"Vacation Plan", "content"=>"Visit Beach\r\nEat Lobsta", "picture"=>"data:image/jpeg;base64,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"}, "commit"=>"Submit"}
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1[0m
+Unpermitted parameters: picture
+  [1m[35m (0.4ms)[0m  begin transaction
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "notes" ("content", "created_at", "title", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["content", "Visit Beach\r\nEat Lobsta"], ["created_at", "2015-06-04 19:50:29.771186"], ["title", "Vacation Plan"], ["updated_at", "2015-06-04 19:50:29.771186"], ["user_id", 2]]
+  [1m[35m (124.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/notes/19
+Completed 302 Found in 157ms (ActiveRecord: 126.1ms)
+
+
+Started GET "/notes/19" for 127.0.0.1 at 2015-06-04 12:50:29 -0700
+Processing by NotesController#show as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mNote Load (0.3ms)[0m  [1mSELECT  "notes".* FROM "notes"  WHERE "notes"."id" = ? LIMIT 1[0m  [["id", 19]]
+  Rendered notes/show.html.haml within layouts/application (12.2ms)
+  [1m[35mUser Load (0.8ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 189ms (Views: 181.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-04 12:50:30 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-04 12:50:30 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-04 12:50:30 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-04 12:50:30 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-04 12:50:30 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-06-04 12:50:30 -0700
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-06-04 12:50:30 -0700
+
+
+Started GET "/notes" for 127.0.0.1 at 2015-06-04 12:50:35 -0700
+Processing by NotesController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mNote Load (0.7ms)[0m  SELECT "notes".* FROM "notes"  WHERE "notes"."user_id" = 2
+  Rendered notes/index.html.haml within layouts/application (10.5ms)
+Completed 200 OK in 143ms (Views: 136.1ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/notes/19" for 127.0.0.1 at 2015-06-04 12:51:59 -0700
+Processing by NotesController#show as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mNote Load (0.9ms)[0m  [1mSELECT  "notes".* FROM "notes"  WHERE "notes"."id" = ? LIMIT 1[0m  [["id", 19]]
+  Rendered notes/show.html.haml within layouts/application (2.9ms)
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 222ms (Views: 210.4ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/notes/19/edit" for 127.0.0.1 at 2015-06-04 12:52:21 -0700
+Processing by NotesController#edit as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mNote Load (0.4ms)[0m  [1mSELECT  "notes".* FROM "notes"  WHERE "notes"."id" = ? LIMIT 1[0m  [["id", 19]]
+  Rendered notes/_form.html.haml (45.2ms)
+  Rendered notes/edit.html.haml within layouts/application (52.7ms)
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 174ms (Views: 167.9ms | ActiveRecord: 1.0ms)
+
+
+Started PATCH "/notes/19" for 127.0.0.1 at 2015-06-04 12:52:26 -0700
+Processing by NotesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iPwyL3Ge0OGWSb4t7+nJwZcZAEfz2qdc75s/CmNjX4Y=", "note"=>{"title"=>"Vacation Plan", "content"=>"Visit Beach\r\nEat Lobsta", "picture"=>"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxQSEhQUEBQVFhQUFBQUFRUUFRYUFBUUFRUWFhUUFBQYHCggGBolHBQVITEhJSkrLi4uFx8zODMsNygtLisBCgoKDg0OFxAQGiwkHR0sLCwsMCwsLCwsLCwtLSwsLCwuLCwsLCwsLCwsLC0sLCwsLCwuLCwtNywsNywsLCwsLP/AABEIALcBEwMBIgACEQEDEQH/xAAbAAADAAMBAQAAAAAAAAAAAAAAAQMCBAYFB//EAD8QAAEDAQQFCQYFAwQDAAAAAAEAAhEhAxIxQRNRYXGRBAUVIlKBodHwU5KxwdLhFDJCYqIGk/EjQ4KyM3Kj/8QAGwEBAQEBAQEBAQAAAAAAAAAAAAECAwQFBgf/xAAuEQABAgUDAQUJAQAAAAAAAAAAAQIDERITFAQhUTEFQVJhkRVTYnGBobHB8Ab/2gAMAwEAAhEDEQA/AOZhEKkIhfvz8bMnCIVLqLqCZOEQqXUXULUShEKt1K6qKicIhUuouoJk4RdVLqLqCZO6i6qQi6gmThEKl1F1BUYXUQqXUXVSVE7qcKl1F1BUTupws7qd1CVE7qIVbqLqConCLqpdTuoSoldTuql1O6oKiV1EKt1F1CVErqLqrdRdQVErqV1WupXULUSuoVbqEFQXU7qpCLqwYqJXUXVWEQkxUSuouqsIhJioldRdVYShWYqJ3UXVS6iEmKid1F1VhK6kxUTuouqt1F1JioldRdVbqd1JkqJXUXVWEXUmKid1F1VhEJMlRO6i6qwiEmKid1F1UhO6kyVE7qLqpdRdSYqMLqIVIRdUmSZO6iFS6i6kxMnCIVLqLqTEycJQqwiEmJk7qSrCEmJmMIhUuourMyTJwiFS6ndSYmShEKtxFxJlJQiFW4i4kxuShEKujT0aTG5GE7qrcRcSY3JQi6q6Mp3EmTclCLqqLNPRJUNyN1OFYWSYsVKkLJxCEQtkWKegSpBS41rqLq2tAjQqVoWhxq3U4W1oU9ClaC241ITura0KehUrQW3GpCIW3oUaFK0JbcakIhbehS0KVoLbjVhELZ0KWhVqQzQ414RCubJYmzSoklIwhUuJpMm5XRJ6JbVxO4vNWfStIamiT0a2ridxKxaNUWSNEtrRp6NKzVo1NGno1taNPRqVi0amjRolt6NPRpcFo1BZIFktvRp6NLgtGpokaJbmjT0aXBaNMWSeiW3o09GpcLaNTRJiyW3okxZpcLaNXRJ6JbejT0azcNWjT0SeiW9Z8nLvytLtwJ+Crachc1oJBrMiKtjtapXF+rhscjHORFXok9zqzSPeiq1qrI83Ro0S3NGjRrrcOdo09GjRrc0aNGlYtGno0aNbmjRo0rJbNPRo0a29GjRq1ktGpo0jZLb0aRs0uEtGmbJY6Jbps0jZq3DKwjS0Sa2tGhKyWQuouqkLIBcKj20EridxVAThSs1bJXE7irCcJWKCNxO4rQiFKy2yNxO4rQmGpWLZG4no1aEwErLbI6NPRq0JwpWLZDRp6NXhMBSstsho0wxXur2+bObgAHuALjBbWQAQCN5Xg7R7ThaGDdiT4RE6qvB2gaV0V1LTzuR80OfV3Vbu6x3DLefFerYc32bMGidbusfHDuW24654FJfy/tL/AEeu1rlRHKxnhav5Xqv48j9Bp9DChJ0mvKkLd1I9QoMbCpaOE1SncuumgWmInf3/ADPpt2SRqcp5va6rQA7gDv8ANed+H1r3b41jio8ssQ7rNxGMZjXvX2dLq4sPZr1T6hWQ4m0VqL80/Z4zuT6lhcSt+drJpiSax1QTXCCcFr2XOukP+nY2rgP1XYbxX39N20qLTF3806/VD52q/wA+jkqg7eS9PoqmzcSuKowBSX3mxEciKnRT82+CrXK1eqE7iVxVSWqzFBK6ldVUilZKCJYsS1WKxKtRFhkrqFmhWols1bxTDiuY6Mb2UxzY3srrbTk8ecnhU6e+mLRcx0Y3srIc1t7KltvJc74VOm0iNLtC5rotvZT6Lb2fFLbeRnfAp0umGscQjTjWOIXN9Fjs+KfRY7HiltvIzvgU6P8AEDWOIR+Jb2m8QucHNY7Hj90+ix2PH7qW28jOXwKdH+Jb2m8Qj8W3tN94Lneix2PH7p9FjseP3ShnIzneBTovxbe033h5o/GM7bfeHmud6LHYHH7p9FjsDj90oZyXOd4FOh/HM7bPfb5p/jmdtnvt81z3RQ7A4pjmkdgcVKGcjOf4FOg/Hs9oz32+azbzq0UFs0DULUAcAVzvRH7BxKfRH7B4osNnJU10TuYp07Ofow5QO+2BHiVV39SgtIdaWRkRevtB8CB4LlOh/wBg8UdD/sb4rzxNDpYior2ost0midTo3tKO3o1TpRz3Yj8psp22oP8A1IVLTnezDWOvWUvDzJfjDrtCX7Fy3Q/7W+K2uVc1zZ2Iujqtf42ryvL7J0LKUbDb14Re5eT1N7Z1bkcq1bJ+0PZHPdkM+Tne5v1K7P6lsxgeTA5EOFDr/MuW6H/a3gUdD/tbwK7ezNF3Mb6IcvbGr4d6nq2PKeTtc5wtLIuc5zy42jC6XGaGaYqzudrL2tn/AHG+a8Tof9reCOiP2t4L0w9PBhpJmyeRzidpaiIs3tVV8z2elbL2tn77fNHSll7Wz/uN814/RB7LeCOiD2W8Fu3D5OWbF92p6/Stl7Wz99vml0pZe1s/fb5ryeif2t4I6JPZbwS3D5GZF92p6vStl7Wz99vmkedbL2tn77fNeV0Wey3gl0Wey3grbh8jMi+7U9Q86WXtbP32+awPOll7Wz99vmvO6KPZHBY9FnsjgrbZyTMi+BT0ulbL2rPfCF5/RWwe6hShnIyovgOkPMNp2D/D61kOYbT2fiz6114sB6jyWWhGoeu5fGyHofocWHwcd0Da+z/kz61RvMNr7Ie8z611wsxsWVzcoupeVNND4OQ6BtfZfyZ9aBzFa+zP8PrXYhg2JhmwJkvGNDOP6DtfZH+P1JjmS19keLfqXYXAmGDUpkPNY7ODkBzJbey/kzzWR5itcmeLPqXXBo2J3ApkOGOzg4/oK19n4s+pPoO29n4s+pdfcCdwavBMl4x4fBx3QlqP9vxafmn0Na+zPD7rr7g1BMWY1KZDy47ODjuiLX2bvd+6OiLX2bvdXZXQnCuS8mOzg44czWvYdwj4lZdCWvYP8fqXX3RqTujUpkPLYZwceeZbbseLfqS6Etux/JvmuwujUnA1KX3Cww48cx23Y/k36kHma1ODBIo7rNFeOqF2F0akrg1BZWM5VReCpCaiKnJyHQtv7Me836kuhrf2Y95vmuxAGpBA1LeQ8lhnBx3Q1v7P+Q815/KC1hIeQCG35hzm3ZIkOaIIkHA5FdvylzX2Tywg3mua1zSCLzpYII/cVxH9VcpBdblpgF+gaNTbKWFrdksef+ZXCProjKUTq5UT9r9kU6QdGyI+k17Hltg+A23sSTMC9BJGMAr0eSchNrOiLHgSDdew1bQ4uyMArwuSdRr3jrFv+mwa3AxH/K0dHevoXNvN7bFtjYCHaFhe90AF1paFwLz/AO7jbO3gKQNfFiOd0kkvVUn9kl9V8jeq0UKEsmz/AL++x4B5ltuyPeZ5pdDW/ZHvs812EDUOARd2DgF6cl558dnBx/QttqaP+bUdB2+pv9wLr43cAiN3AK5LyY8Pg4/oO31N/uNSPMdvqZ/dauwI9UWMeqJkRBjs4OR6Et/2f3GoXW3fVEK5LxjsNf8AFMgG9RxgbTq3obyttamhg0MTviu9ahtgDQdZzYBm68g5B2YrrzWWlugNBukEYklsbSaTnwXE7SN4WoNMYxpIqsTatjKlYivcMVDTkignc6k5QMPAIdyqAHOBptAEYVNFkptyDkKQcs8CCsZb2Z7p3rWZaCCQDdzoKzuFe7UgWogtLWjGQdeeGdUBtsI1Rhs3LIRTL4T51Wq3lAJg3u/DdULMWla0GwUJzMY99VClg8aomsRXeRwWeyPD4StbSCDiZJiJrsCzvBsDXqkCkCMTrCCRcJ3vNRaetAwG2u4DAb02PkA45iPlrQSKkpg+qKIONcVlepiROFPsULIp6+yAp39sZTQhNrvVK6ypMSKJqd5BNfR8UmJGU/McEwFgHYU4a9aRJwjvUmJFCEiPl8EiY7vVE2+WewJMSGQm0VSleXzjz42xcW6K1f8Aua3qzmJOY2Sqm5F2PG6e5NyS9ye2tgDZWrrUtDXOdZWTeU6RvVaJLSx1mRExJmmHLc5ctaXWM53rYzthx+Dl7PPfO7LZlpcaWlz7zXOiARYhgm7UkOnVR+6OR50bee0i0Y0CzLAIcSJa4Zb15Y8CK+I1UTZEX1VJHbQRocN03LLu/P7Oi5lsg9/IrOYD7QPJFYLGPt2nV/5G2eNDhmvoHIC5we9wAc55FMC1kMaWnsmC4ThfO9fLeb+dzZvY5j2TZ2cDqn816zIMTX/xaxj3LqeSf1ndaGmya4NAa0teWUAgSCHfFd9Np4jWLNN1Vy+qrL7SOMfUNfFnP+/lOxgohcw3+tBnYmNloCf+oXs8g55sbajC4OwLXMcCCMQTF2a612Vjm9UMI9F6G6QsYWRKwvLJoISLUXki5UBCSLyEmDynCAH9ZpnrNBi9TOuGdKwgWkRiTk0tqGk0DQKVGdMFCwtA4u6j2dl7mOl01IayA7KstA1ErJ3WeDDvy3Q6YdeEk0HoKg2hFSQWjGSRIOFQFSxmZBBByJInYAcKaliS4OFYaIOAMEQA0ETjWc8Fhat67SQDDnQJh4BoSBhq3KFM7gFHXpHa4wHREV8NioRIhsZEkmsY08arK1kgCN7SM5EG9s1wsIaXGZlvVNw5mpvUocqnJQCY0kkfl1YtxM/mFD3LN0tLW9YgRgQZk/7gOWNRryTs2k3vC9BvHe3CFiOUDF9IjE1aSYyoTghStq2ARJIkEAGDJriTUV8U2urFTG+g2AY4iqbWxEkwTIBjGN1FN7iA4uAAyyMVlzoHV4qFMmQ6BBGJH6XCNbTj8KrNgmoJjUYB7/QSMkRsMGTXLegOilcMSBTKDkI4IDLCb2ucozWQxpERSsHbCwdqzmaU14j/AD3qjjArv+JzUAiYjf6kpk1k+tVErwwOZONQM8sE24Cc/Vf8oBmmePjspkn/AIUy6QDqqSKA7xn9lQ9+NIrxhQDxRlIGxIUO/wBdyRmYFNv2QGaxcTNADvMZDZvTdOXE/ZK/Ikb1ADGmpJHcKD5rICnmSfikDPzTnv1IDV5bzdZWwi2YHVmcDNP1CDlrXmv/AKQ5GSSbH/6WoA3Q74r2ge4pSrNRJDyHf0lyPKx/nanhL4+Ki7+j+T/pNqJJPVLI4XKBe+5I+K0j3J0UwrG8Hnc18x2NhJaC9x/VaQ4gUoAAAMNUr0zaHNIErE+skVVVdyo1E6AViiUA7kAifX2ScgohUCgoTLUJMSPOqCYNAKn9UkRQ5OmKeKmGgNmNowJBnUCZMzhRZusyG9mkDrUFDSREb6I5vtSauaWGJaLw6zQInOGyRjrVIYc3PcPz2kuc6R+mG5CCak4U2qzWuBJgF+MA1u4E1oO7xU+W8ndaCA4CZxEkayyRhlnrUeR2bTZ/6b3y15bNp1ycCQDmIwiiA3WsLQLstc4zGDL0apgbhtTszdaZ6zyReMuaDJ17ENfIAvEVktEV1MMg8RGCnb27rOREMvEgxfpVxwnOI+yhTbLq3QSaVANRSniMNqmYNHBrmmLwIpIziPDciycHCaXjBiocMzjU4nHWFlbMiA3vGEjYRO/uQpjaGCSXdU5Oq1u3WTOW9Vk6tWe6SCfspWNoHyXNLW3gWh0dYxiTnUK7xjDgJoDBnb30KgMGnrSDQ5flLT5U8VUs62BiJBpE5iEAiMtYn4wotZDfzQZxGEbRPwQpVrR86gU1USY+9IBBqMCKGZuuGR+yLIk4Qbs0244rFjgTUFsGhiBqmuGKgMgSDWKxI1DZHqqyv9Ug6sDWe9YW7KEtu3spMAmRQHIrPSUl0igLpxBI/KgDBpzjAVJ445rJkw0xjkct6m2z617Ckb5+GAVTPfhIqRtu5qATusN3fwOIQ0kxsoZPqViwA4jrNzaTnnTI6sETMEzBpGYQDvYgZY7zUELO9TXTvhIE4SDTvI2rA162ECN+/wBZqgcCJGGYzWU4R62JCm4fBMEHD7d6Afx1jFIHLHYaFJppnrjVvTdtQAXbI9akH/CTHSK+dU2IQeKTgmNhSa4qgxvTigbcfilG5ZAakIYpynVKJ9QhREHJCEIDweT2ZFoTccQZit6pET1ierU0pUYKvJi2+6z6zXNu3piXXj1c5ONFhzHaDRm0MdbrXgfzDJ5nMgTO0LZ5fYCHPaJIrR0OJOIk4YAU+a2vUwUc8OkAGmLTRxBgwDq3Ywq2jcSXRJaATM4QGicagrzeZCXC8+DMYAi4QYuTJioy1L0bN7DlMOdAMSXDME5wouxUNJ1naNffdaWbWEBpAFYBxvaycdy9OZbElppUAGk1x1iV5nKyRaEWEuIcA8zJaXZNmggVW3yfk4GZccwMBG04lFKZtDp6pBArDpka4OdJpQKbrVrX9cgF2FS0bf1GKQY27U+TvILtJECYgOrvBHzS5TZtLgbMddooBMAGDdLeB7lCmy9jmAVLhMQ6NpJJzp8EuSkGbrc9oBkVInfHFR5M2W9aWX/0GkRSABhSsDJZcjN0G5JidTjsIGJQGwXzuIIxI2HcsLYwZLZEaiSfUz3LG3gDSA4QTrDcwti7NQBAbStNle4ZLJTG1IoBQns4zuCnfic8TQYx2m54qDLOLR141/O2BQ1+LcNxGuFstaZkkdaKHA0w4yqDC3IbAP5Xuuj9pIJFchTirFkgA1pnjIw1asVqcrZaNd1AHMIEtpIdJ/SRnT1VbNmADJJwznHv+CigxcYoZEGKVGydX3VGyIGYEgiY9fBQDnB4c2rXUcDjsMZj4fCrWgmbMja2tDs1ZIDM1wy70okiZB8FOCHAmQRNMWkb8QfDYqttxmRxIQGWMxun4Ig5zhXz2LBuJwMgR37e5ZkGle848QgE06q7DisIyw3eXBZaicuPcU5k1GAx+4QGMRjln5oeayJEcDvCzIBFZHr4JNb2TTDZ35oQDB38Em0xHCnzU3Ng6lZrzHzy2IDAPiYMph3rCibxOWxKNSpDERq+RTJqIy1ptcm5s6vkhROdu3II1JXVjKAJ3+CFTSawhQHgWFoC2bNxdW8WmOrnE3RTGkrbtw94Fy7N6pxDAJgtkVdUGojHvaF0XZTJlZWJALRAEY/qknEk8M1r2nJDZ2mkPWeYaxp+AIphrnBCFEBa3YHXnA3I6z4FTShcZrWVscideBjq7Yk1zQhF6GkFyWzc4Hr3mkx+W6TGNSTGGrvWHKbC0aHaACRJrGsYk7JQhRCKOw5UCQGyIo6pNYk9bGdqto2FpIpI1U9UQhVUKVsmGJjA+OGG5YvDW0AAGoCBJ2BCFkEuS2IH5SYhpqbwLqgwDh853oguMtOH6ThGw5VQhAbJfTrClBrx1rUtrOYYRIgkGawDAx2HOUIUQpsxAjCdXw2LG0aMGwHYkgRPePmhCAq6ZA4nA7x5J3pQhASfdykHwNcKLF9oQCcad8IQqQfJ7ZpFMqHWDT5fBZAgVBx1hCEkDOTjQ76fBYggViDn6zQhQEyZIunCcZVGuGYgnUkhUg3WutYlwzQhABeEy+MfuhCAxa+NyT7RCEKRdyxozPimhCsjJ//Z"}, "commit"=>"Submit", "id"=>"19"}
+  [1m[36mNote Load (0.5ms)[0m  [1mSELECT  "notes".* FROM "notes"  WHERE "notes"."id" = ? LIMIT 1[0m  [["id", 19]]
+Unpermitted parameters: picture
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/notes/19
+Completed 302 Found in 22ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/notes/19" for 127.0.0.1 at 2015-06-04 12:52:26 -0700
+Processing by NotesController#show as HTML
+  Parameters: {"id"=>"19"}
+  [1m[35mNote Load (0.4ms)[0m  SELECT  "notes".* FROM "notes"  WHERE "notes"."id" = ? LIMIT 1  [["id", 19]]
+  Rendered notes/show.html.haml within layouts/application (3.1ms)
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 136ms (Views: 126.4ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-04 12:52:26 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-04 12:52:26 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-04 12:52:26 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-04 12:52:26 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-06-04 12:52:26 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-04 12:52:26 -0700
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-06-04 12:52:26 -0700
+
+
+Started GET "/notes/19/edit" for 127.0.0.1 at 2015-06-04 12:52:29 -0700
+Processing by NotesController#edit as HTML
+  Parameters: {"id"=>"19"}
+  [1m[35mNote Load (0.4ms)[0m  SELECT  "notes".* FROM "notes"  WHERE "notes"."id" = ? LIMIT 1  [["id", 19]]
+  Rendered notes/_form.html.haml (41.5ms)
+  Rendered notes/edit.html.haml within layouts/application (45.7ms)
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 202ms (Views: 191.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/notes/19" for 127.0.0.1 at 2015-06-04 12:52:33 -0700
+Processing by NotesController#show as HTML
+  Parameters: {"id"=>"19"}
+  [1m[35mNote Load (0.3ms)[0m  SELECT  "notes".* FROM "notes"  WHERE "notes"."id" = ? LIMIT 1  [["id", 19]]
+  Rendered notes/show.html.haml within layouts/application (3.9ms)
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 126ms (Views: 117.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/notes/new" for 127.0.0.1 at 2015-06-04 12:53:28 -0700
+Processing by NotesController#new as HTML
+  [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered notes/_form.html.haml (41.0ms)
+  Rendered notes/new.html.haml within layouts/application (45.2ms)
+Completed 200 OK in 183ms (Views: 174.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/notes/new" for 127.0.0.1 at 2015-06-04 12:54:13 -0700
+Processing by NotesController#new as HTML
+  [1m[36mUser Load (2.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered notes/_form.html.haml (79.2ms)
+  Rendered notes/new.html.haml within layouts/application (86.5ms)
+Completed 500 Internal Server Error in 116ms
+
+ActionView::Template::Error (undefined method `input' for #<ActionView::Helpers::FormBuilder:0x007f1dc5bf83c8>):
+    1: = form_for @note do |f|
+    2:     = f.input :title, :class => "input-sm"
+    3:     = f.input :content, :class => 'input-lg'
+    4:     = f.input :picture
+    5:     = f.submit 'Submit', :class => "btn btn-primary"
+  app/views/notes/_form.html.haml:2:in `block in _app_views_notes__form_html_haml__1813131738329009336_69882924413060'
+  app/views/notes/_form.html.haml:1:in `_app_views_notes__form_html_haml__1813131738329009336_69882924413060'
+  app/views/notes/new.html.haml:3:in `_app_views_notes_new_html_haml__2977254086527796953_69882924610520'
+
+
+  Rendered /home/mark/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.7ms)
+  Rendered /home/mark/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.6ms)
+  Rendered /home/mark/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (61.2ms)
+
+
+Started GET "/notes/new" for 127.0.0.1 at 2015-06-04 12:54:23 -0700
+Processing by NotesController#new as HTML
+  [1m[35mUser Load (2.7ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered notes/_form.html.haml (47.1ms)
+  Rendered notes/new.html.haml within layouts/application (51.8ms)
+Completed 200 OK in 252ms (Views: 240.9ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-04 12:54:23 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-04 12:54:23 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-04 12:54:23 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-04 12:54:23 -0700
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-06-04 12:54:23 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-06-04 12:54:23 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-04 12:54:23 -0700
+
+
+Started GET "/assets/bootstrap.min.css" for 127.0.0.1 at 2015-06-04 12:54:24 -0700
